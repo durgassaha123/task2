@@ -1,0 +1,25 @@
+.content {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
+    z-index: 1000
+}
+.section {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh
+}
+.one {
+    background-image: url('../img/5.jpg')
+}
+.two {
+    background-image: url('../img/4.jpg')
+}
+@font-face {
+    font-family: 'Vanilla Extract';
+    src: url('https://download1506.mediafire.com/5087r5hop0ug/szfosrmne42nk11/VanillaExtractRegular.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap
+}
